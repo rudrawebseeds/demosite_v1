@@ -25,7 +25,7 @@
 <div id="section1">
   <div class="container">
       <div class="top">
-         <p class="top-txt"><b>WARNING:</b> Due to extremely high media demand, there is 
+         <p class="top-txt"><b>Testing:</b> Due to extremely high media demand, there is 
          limited supply of <strong>novEASE</strong> in stock as of  
          <span>&nbsp;<script type="text/javascript">getDate(0);</script></span></p>
        </div>
