@@ -1,0 +1,497 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+	padding:0;
+	background:#fff;
+	font-family: 'geomanistregular';
+	}
+div, ul, h1, h2, h3, h4, h5, li, p, img, form, input, textarea {margin:0;padding:0;}
+table, tr, td {border:0;}
+a{outline: none; color:#333; text-decoration:none;}
+a:hover {outline: none; color:#000; text-decoration:none;}
+img {border:none;}
+li {list-style:none;}
+.clearall{
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+	height:1px;
+}
+/*-----------------------
+MAIN CSS START
+------------------------*/
+.container{
+	width:1004px;
+	margin:0 auto;
+	padding:0;
+}
+.up-bg{
+	background:url(../images/up-bg.jpg) center top no-repeat;
+	width:100%;
+	min-width:1004px;
+	margin:0 auto;
+	padding:0 0 0 0;}
+.up-mid-bg{
+	background: #fff;
+    margin:0 auto;
+    padding:0 0 45px 0;
+    -moz-box-shadow: 0 0 25px #cecece;
+    -webkit-box-shadow: 0 0 25px #cecece;
+	margin:0 auto 30px auto;
+	position:relative;}	
+
+.head-sec{
+	height:100px;
+	border-bottom:1px solid #aeaeae;
+	position:relative;}		
+.up-top{
+	display:block;
+	margin:0 auto;
+	padding: 14px 0 0 0;}
+.strip{
+	background:#023e91;
+	height:75px;
+	min-width:1004px;
+	margin:0 auto 0 auto;}
+.strip-txt1{
+	font-family: 'geomanistbold';
+	font-size:32px;
+	text-align:center;
+	line-height:34px;
+	color:#fff;
+	text-transform:uppercase;
+	margin:0 auto;
+	letter-spacing:-1px;
+	padding:9px 0 0 0;}	
+.strip-txt2{
+	font-size:18px;
+	text-align:center;
+	line-height:22px;
+	color:#fff;
+	margin:0 auto;
+	padding:0 0 0 0;}
+.strip-txt2 span{font-family: 'geomanistbold';}
+.up-bg1{
+	background:url(../images/up-mid-bg1.jpg) center top no-repeat;
+	height: 601px;
+	display:table;
+	width: 100%;}
+.mid-prt1{
+	height:545px;}	
+.up-bg1-left, .up-bg1-right{
+	display:inline-block;
+	float:left;
+	width:454px;
+	margin:28px 0 0 0;
+}
+.bottles{
+	display:block;
+	margin:0 auto 0 auto;}	
+ul.up-list2{
+	position:absolute;
+	top:581px;
+	left:2px;
+	padding:0 0 0 0;}
+ul.up-list2 li{
+	display:inline-block;
+	float:left;
+	 width:147px;
+	 font-family: 'Open Sans', sans-serif;
+	 font-weight:600;
+	 color:#000;
+	 font-size:20px;
+	 line-height:24px;
+	 text-align:center;
+	 margin:0 0 0 0;
+	 padding:0 0 6px 0;
+	 border-right:1px solid #cdcdcd;}
+
+ul.up-list2 li:nth-child(3){border-right:none; width:169px;    margin: 0 0 0 18px;}	
+ ul.up-list2 li:nth-child(2){width:146px;}		 
+.list2-icon1{
+	display:block;
+	margin:0 auto 12px auto;}	 		
+.up-bg1-right{
+	width:549px;
+	margin:0 0 0 0;
+	position:relative;}	
+.up-bg1-right-txt1{
+	font-family: 'geomanistbold';
+	 font-size:30px;
+	 line-height:30px;
+	 text-align:center;
+	 text-transform:uppercase;
+	 margin:0 auto;
+	 padding:35px 0 0 0;
+	color:#000;}	
+.up-logo{
+	margin:5px 0 13px 0;}	
+.up-bg1-right-txt1 span{
+	font-size:23px;
+	text-transform:none;
+}	
+.up-bg1-right-txt1 b{
+	text-transform:uppercase;
+	color:#193e4e;
+	}
+.price-box{
+	background:#0f75bc;
+	height:166px;
+	margin: 26px 0 0 0;}		
+.up-bg1-right-txt2{
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    margin: 0 18px 0 0;
+    padding:10px 0 0 0;}	
+.up-bg1-right-txt2 span{
+	color:#fec60c;}
+
+.up-bg1-right-txt3{
+	font-family: 'geomanistbold';
+    font-size:45px;
+    line-height: 26px;
+    text-align: center;
+    color: #89ee02;
+    text-transform: uppercase;
+    margin: 10px 0 0 0;
+    padding: 17px 0 0 0;
+    position: relative;}
+.arrow1{
+	position: absolute;
+    top: 8px;
+    left: 46px;}
+.arrow2{
+	position: absolute;
+    top: 8px;
+    left: 373px;}	
+ .counter-box2{
+	float: right;
+    margin: 35px 0 0 0;
+    width: 526px;
+    display: block;
+	
+}
+.counter-box2{
+	margin:35px auto 0 auto;
+	display:block;
+	float:none;
+	position:relative;}
+.counter-hding{
+	font-family: 'geomanistmedium';
+	font-size:28.3px;
+	line-height:30px;
+	color:#ff0000;
+	text-align:center;
+}
+.timer{
+	height:52px;
+	width:201px;
+	background:url(../images/counterbg.jpg) center top no-repeat;
+	margin:3px auto 0 auto;
+}
+.timer-txt{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:600;
+	font-size:23.82px;
+	line-height:37px;
+	color:#fff;
+	text-align:center;
+	padding:0 0 0 6px;
+	letter-spacing:13.4px;	
+}
+.count{
+	position:relative;
+	margin:0 0 0 0;}
+	
+.ck-btn{
+	display:block;
+	margin:50px auto 0 auto;}
+.ck-btn2{
+	display:block;
+	margin:23px auto 0 auto;}		
+.strip2-txt1{
+	font-family: 'geomanistbold';
+	font-size:31px;
+	line-height:38px;
+	text-align:center;
+	margin:0 auto;
+	color:#fff;
+	text-transform:uppercase;
+	padding:13px 0 0 0;}
+.strip2-txt1 span{
+	 font-family: 'geomanistregular';}
+.box1, .box2, .box3, .up2-box1, .up2-box2, .up2-box3{
+	background:url(../images/box1.png) center top no-repeat;
+	display:inline-block;
+	float:left;
+	margin:27px 0 0 65px;
+	width:290px;
+	height:386px;}	
+
+.box2{
+	background:url(../images/box2.png) center top no-repeat;
+	margin:27px 0 0 3px;}
+	
+.box3{
+	background:url(../images/box3.png) center top no-repeat;
+	margin:27px 0 0 3px;}
+.up2-box1{
+	background:url(../images/up2-box1.png) center top no-repeat;
+}
+.up2-box2{
+	background:url(../images/up2-box2.png) center top no-repeat;
+	margin:27px 0 0 3px;}
+	
+.up2-box3{
+	background:url(../images/up2-box3.png) center top no-repeat;
+	margin:27px 0 0 3px;}			
+.box-txt1{
+	 font-family: 'geomanistmedium';
+	font-size:18px;
+	line-height:22px;
+	text-align:center;
+	color:#0f75bc;
+	text-transform:uppercase;
+	margin:0 auto;
+	padding:200px 0 0 0;}	
+.box-txt2{
+	font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+    padding: 11px 16px 0 14px;}
+.arrow5{
+	 position: absolute;
+    top: 16px;
+    left: 237px;}
+.arrow6{
+	position: absolute;
+    top: 16px;
+    left:716px;}		
+.up2-nd-arrow{
+	position:relative;}	
+/*==========footer======================*/
+.cut-txt{
+	font-family: 'Open Sans', sans-serif;
+	font-size:14px;
+	line-height:16px;
+	text-align:center;
+	color:#868686;
+	text-decoration:underline;
+	margin:0 auto;
+	padding:0 4px 0 0;}
+.cut-txt{
+	margin:0 0 -2px 0;}	
+.footer{
+	margin:0 auto 0 auto;
+	padding:10px 0 20px 0;
+}
+.frt-txt{
+	font-size:16px;
+	line-height:25px;
+	text-align:center;
+	color:#000;
+	margin:0 auto;
+	padding:30px 0 0 0;}	
+.frt-txt a, .frt-txt a:hover{
+	text-decoration:none;
+	color:#000;}	
+/*=================================================
+				START thankyou PAGE
+==================================================*/
+.up-bl-strip{
+	height:81px;
+	background:#023e91;
+	width:100%;
+}
+.up-hding{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:30px;
+	line-height:30px;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#ffffff;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+.up-hding2{
+	color:#ffffff;
+	text-align:center;
+	font-weight:300;
+}
+.up-hding2 span{ font-weight:700;}
+.thanks-midbd{
+    width: 759px;
+    display: table;
+	margin:0 auto 80px auto;
+	display:block;
+	padding:0 0 50px 0;
+}
+
+.thanklogo{ float:left; margin:30px 0 0 30px;}
+.thankseal{ float:right; margin:25px 30px 0 0;}
+.thank-box2-prt1, .thank-box2-prt2{
+	display:inline-block;
+	float:left;
+	width:256px;
+	margin:0 0 0 0;
+	height:168px;
+}
+.th-brd{
+	border-bottom:1px solid #dedede;
+	margin:0 auto 0 auto;
+	width:100%;}
+.thanks-bottle{
+	margin:0;
+	padding:22px 0 0 126px;}		
+.thank-box2-prt2{
+	width:556px;
+    margin: 14px 0 0 136px;}
+.thank-box2-prt2-txt1{
+	font-family: 'geomanistmedium';
+	font-size:24px;
+	line-height:24px;
+	text-align:left;
+	color:#0095d3;
+	text-transform:uppercase;
+	margin:0;
+	padding:11px 0 0 0;}	
+.thank-box2-prt2-txt2{
+	font-size: 20px;
+    line-height: 27px;
+    text-align: left;
+    color: #5a5a5a;
+    margin: 13px 0 0 2px;
+    padding: 0 0 0 0;}
+.thank-box2-prt2-txt2 span{
+	color:#d00504;
+	font-family: 'geomanistmedium';}
+.thank-box2-prt2-txt2 b{
+	font-family: 'geomanistmedium';}	
+.thank-box2-prt2-txt3{
+   font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #444444;
+    margin: 12px 0 0 0;
+    padding: 0 0 0 0;}	
+
+.thank-box2-prt2-txt3{
+	font-size: 16px;
+    line-height: 21px;
+    text-align: left;
+    color: #2b2b2b;
+    margin: 12px 0 0 3px;
+    padding: 0 0 0 0;}	
+.thank-txt2{
+	font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+    margin: 0 0 0 0;
+    padding:8px 0 9px 41px;
+    border-bottom: 1px solid #dedede;}	
+.thank-txt2 span{
+	font-family: 'geomanistmedium';
+	font-size:18px;}
+.thank-txt3, .thank-txt4{
+	display: inline-block;
+    float: left;
+    width: 285px;
+    font-size: 17px;
+   font-family: 'geomanistmedium';
+    height:100px;
+    line-height: 24px;
+    text-align: left;
+    color: #0e0e0e;
+    text-transform: uppercase;
+    margin: 18px 0 0 41px;}	
+.thank-txt4{
+	width: 202px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    font-weight: 400;
+    text-transform: none;
+    color: #5a5a5a;
+    margin: 0 0 0 0;
+    padding: 20px 0 0 213px;}
+
+
+.thank-txt5{
+	font-family: 'geomanistmedium';
+	font-size: 23px;
+    line-height: 26px;
+    text-align: left;
+    color: #0095d3;
+    text-transform: uppercase;
+    margin: 10px 0 5px 248px;}
+ul.thanks-list{
+	margin:10px 0 0 0;
+	padding:0 0 0 0;}
+ul.thanks-list li{
+	display:inline-block;
+	float:left;
+	font-size:16px;
+    line-height: 26px;
+	text-align:left;
+	border-bottom:1px solid #e0e0e0;
+	color:#5a5a5a;
+	width:387px;
+	margin:0 0 0 0;
+	padding:0 0 0 250px;
+}	
+ul.thanks-list li span{
+	font-family: 'geomanistmedium';
+	font-size:18px;
+	line-height:20px;
+	color:#000000;
+}
+ul.thanks-list li:nth-child(1), ul.thanks-list li:nth-child(2){
+	text-transform:uppercase;
+	    height:29px;
+}
+ul.thanks-list li:nth-child(2){
+	width: 333px;
+    text-align: left;
+    padding: 0 0 0 31px;}
+ul.thanks-list li:nth-child(3){
+	background: none;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: none;
+    height: 85px;
+    width: 387px;
+	padding-top: 16px;}
+ul.thanks-list li:nth-child(4){
+    width: 325px;
+    background: none;
+    border-top: none;
+    height: 85px;
+    padding: 16px 0 0 39px;
+    text-align: left;
+    font-size: 16px;
+	}
+ul.thanks-list li:nth-child(5){
+	text-transform: uppercase;
+    height: 35px;
+    border-bottom: 1px solid #e0e0e0;
+    width: 193px;
+    padding: 14px 0 0 356px;}	
+ul.thanks-list li:nth-child(6){
+   width: 328px;
+    border-bottom: 1px solid #e0e0e0;
+    border-top: none;
+    height: 35px;
+    padding: 14px 0 0 124px;
+    text-align: left;
+	}
+		
+

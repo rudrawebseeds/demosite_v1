@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'geomanistbold';
+    src: url('geomanist-bold.woff2') format('woff2'),
+         url('geomanist-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'geomanistregular';
+    src: url('geomanist-regular.woff2') format('woff2'),
+         url('geomanist-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'geomanistmedium';
+    src: url('geomanist-medium-webfont.woff2') format('woff2'),
+         url('geomanist-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'geomanistlight';
+    src: url('geomanist-light-webfont.woff2') format('woff2'),
+         url('geomanist-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'geomanistbook';
+    src: url('geomanist-book-webfont.woff2') format('woff2'),
+         url('geomanist-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*--------------------heartbeat--------------------*/	
+.pulse{
+    animation-name: pulse;
+    -webkit-animation-name: pulse;   
+
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.9;       
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;   
+    }   
+    100% {
+        transform: scale(0.9);
+        opacity: 0.9;   
+    }           
+}
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;       
+    }
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1;   
+    }   
+    100% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;   
+    }           
+}		
+												
+	
+	
